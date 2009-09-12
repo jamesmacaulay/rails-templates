@@ -17,4 +17,5 @@ secret = ask("What is your app's shared secret?")
 
 generate 'shopify_app', api_key + ' ' + secret
 
-git :add => '.', :commit => '-am "fresh shopify_app generated"'
+git :add => '.'
+git :commit => '-am "fresh shopify_app generated"'
